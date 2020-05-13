@@ -18,16 +18,30 @@
     grid-area: 2 / 2 / 3 / 3;
 }
 #blue.hover {
-    background-color: #08BDBD;
+    background-color: lightblue;
 }
 #green.hover {
-    background-color: #29BF12;
+    background-color: lightgreen;
 }
 #red.hover {
-    background-color: #F21B3F;
+    background-color: lightpink;
 }
 #yellow.hover {
-    background-color: #FF9914;
+    background-color: lightgoldenrodyellow;
+}
+
+#blue:active {
+    background-color: lightblue;
+}
+
+#green:active {
+    background-color: lightgreen;
+}
+#red:active {
+    background-color: lightpink;
+}
+#yellow:active {
+    background-color: lightgoldenrodyellow;
 }
 
 * {

@@ -12,6 +12,7 @@ function newGame() {
 function clearGame() {
     game.currentGame = [];
     game.score = 0;
+    $('#score').html('Score: ' + game.score);
     generateMove();
 }
 
