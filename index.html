@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon says...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Simon says...</h1>
+<label id="score"></label><br/>
+<main>
+    <div id="green" onClick="addToPlayer(this.id)"></div>
+    <div id="red" onClick="addToPlayer(this.id)"></div>
+    <div id="yellow" onClick="addToPlayer(this.id)"></div>
+    <div id="blue" onClick="addToPlayer(this.id)"></div>
+</main>
+<br />
+<button onclick="newGame()">Play</button>
+<button onclick="clearGame()">Reset</button>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
